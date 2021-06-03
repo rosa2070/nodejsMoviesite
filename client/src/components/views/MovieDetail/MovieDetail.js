@@ -19,6 +19,14 @@ function MovieDetail(props) {
                 console.log(response)
                 setMovie(response)
             })
+
+
+        fetch(endpointCrew)
+            .then(response => response.json())
+            .then(response => {
+                console.log('responseForCrew', response)
+
+            })
     }, [])
 
 
