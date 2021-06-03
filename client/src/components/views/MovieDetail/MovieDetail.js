@@ -63,4 +63,4 @@ function MovieDetail(props) {
     )
 }
 
-export default MovieDetail
+export default MovieDetai
